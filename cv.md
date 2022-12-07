@@ -31,3 +31,16 @@ function areYouPlayingBanjo(name) {
   return name;
 }
 ```
+___
+## Experience
+Nothing yet…
+___
+## Education and courses
++ University: Belarusian National Technical University
++ Courses:
+  + CS50 video course
+  + курс по HTML https://code-basics.com
+  + JavaScript https://code-basics.com
+ ___
+## English
+English level - A2
