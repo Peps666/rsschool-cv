@@ -9,7 +9,7 @@
 ## About Me
 I work in a non-IT field. I learn Front-End Development in __RSSchool!__
 ___
-## Skils
+## Skills
 + JavaScript (Basic)
 + Git
 + HTML
