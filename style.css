@@ -4,6 +4,7 @@ body {
 	justify-content: space-between;
 	font-family: 'Roboto', sans-serif;
 	color: #4d2323;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVAAAACWCAMAAAC/8CD2AAAAA1BMVEX08esvyA3aAAAAR0lEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAF8GxXYAARizDlgAAAAASUVORK5CYII=);
 }
 
 html {
@@ -54,7 +55,7 @@ html {
 
 
 .section {
-	width: 50%;
+	width: calc(50% - 20px);
 	border-bottom: 1px solid #4d2323;
 	padding-bottom: 25px;
 }
@@ -70,6 +71,7 @@ html {
 	width: 200px;
 	height: 200px;
 	object-fit: cover;
+	border-radius: 50%;
 }
 .section-present-name {
     
@@ -90,6 +92,38 @@ html {
 	  color: #727972;
 	  padding: 0px 10px 10px 10px;
 	}
+
+	footer {
+		width: 100%;
+		height: auto;
+		justify-content: space-between;
+		align-items: center;
+		background-color: rgb(122, 120, 117);
+		max-width: 1440px;
+		margin: 0 auto;
+		border-radius: 5px;
+	}
+
+	.footer-container {
+		display: flex;
+		justify-content: space-between;
+		margin: 0 auto;
+		align-items: center;
+		color: #fff;
+	}
+
+	.my-github {
+		display: flex;
+		align-items: center;
+	}
+
+	footer a {
+		text-decoration: none;
+		color: #ffffff;
+		font-size: 14px;
+		margin-left: 50px;
+	}
+
 
   @media (max-width: 768px) {
 	.section {
